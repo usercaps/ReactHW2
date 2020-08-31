@@ -1,0 +1,39 @@
+.content{
+  .favorites-lists{
+    display: none;
+    flex-basis: 100%;
+  }
+  .comlite-lists{
+    display: none;
+  }
+  .task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(146, 182, 141);
+    transition: 0.3s;
+    &:hover{
+      background-color: rgb(53, 70, 51);
+      color: #ffffff;
+    }
+    .task_is_done{
+      text-decoration: line-through;
+    }
+    p{
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .to-favor{
+      color: #00ff2a;
+      margin-left: 15px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+    .delete-task{
+      cursor: pointer;
+    }
+  }
+}

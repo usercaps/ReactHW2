@@ -1,0 +1,49 @@
+.content .favorites-lists {
+  display: none;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.content .comlite-lists {
+  display: none;
+}
+
+.content .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #a38db6;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content .task:hover {
+  background-color: #a38db6;
+  color: #fff;
+}
+
+.content .task p {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.content .task .to-favor {
+  color: #FFDF00;
+  margin-left: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.content .task .delete-task {
+  cursor: pointer;
+}

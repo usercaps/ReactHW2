@@ -1,0 +1,23 @@
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  button {
+    color: rgb(146, 182, 141);
+    font-size: 25px;
+    background: none;
+    outline: none;
+    padding: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(53, 70, 51);
+      color: #fff;
+    }
+  }
+  .selected-tab {
+    background-color: rgb(53, 70, 51);
+    color: #fff;
+  }
+}
